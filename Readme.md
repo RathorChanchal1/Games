@@ -12,19 +12,19 @@ Currently includes:
 
 ### 🐉 Dragon Game
 Endless runner where you jump over cacti and try to survive as long as possible.  
-![Dragon Game](.pics/DragonGame.png)
+![Dragon Game](./Games/pics/DragonGame.png)
 
 ---
 
 ### 🏀 Bouncing Ball
 A simple game with smooth ball movement and physics-like bouncing.  
-![Bouncing Ball](.pics/BouncingBall.png)
+![Bouncing Ball](./Games/pics/BouncingBall.png)
 
 ---
 
 ### 🐍 Rainbow Snake Game
 A colorful twist on the classic snake game, with a rainbow body and smooth controls.  
-![Snake Game](.pics/SnakeGame.png)
+![Snake Game](./Games/pics/SnakeGame.png)
 
 ---
 
