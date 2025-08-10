@@ -11,10 +11,10 @@ win = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Chrome Dino")
 
 # Load images
-dragon_img = pygame.image.load("dragon.png")
+dragon_img = pygame.image.load("pics/dragon.png")
 dragon_img = pygame.transform.scale(dragon_img, (60, 60))
 
-cactus_img = pygame.image.load("cactus.png")
+cactus_img = pygame.image.load("pics/cactus.png")
 cactus_img = pygame.transform.scale(cactus_img, (40, 60))
 
 # Colors

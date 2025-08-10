@@ -10,19 +10,19 @@ screen.setup(width=300, height=500)
 screen.tracer(0)
 
 # Register image shapes (make sure files are in same directory)
-screen.addshape("road.gif")
-screen.addshape("red.gif")    # Player car
-screen.addshape("white.gif")  # Obstacle cars
+screen.addshape("pics/road.gif")
+screen.addshape("pics/red.gif")    # Player car
+screen.addshape("pics/white.gif")  # Obstacle cars
 
 # Background setup
 background = turtle.Turtle()
-background.shape("road.gif")
+background.shape("pics/road.gif")
 background.penup()
 background.goto(0, 0)
 
 # Player setup
 player = turtle.Turtle()
-player.shape("red.gif")
+player.shape("pics/red.gif")
 player.penup()
 player.goto(0, -180)
 player.shapesize(stretch_wid=0.05, stretch_len=0.05)  # Scale down car
@@ -47,7 +47,7 @@ enemy_cars = []
 
 def create_enemy():
     enemy = turtle.Turtle()
-    enemy.shape("white.gif")
+    enemy.shape("pics/white.gif")
     enemy.penup()
     enemy.speed(0)
     enemy.shapesize(stretch_wid=0.05, stretch_len=0.05)  # Scale down enemy car
